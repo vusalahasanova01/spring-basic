@@ -1,0 +1,11 @@
+####
+GET http://localhost:8082/text/check?x=book
+
+
+####
+POST http://localhost:8082/text/add
+Content-Type: application/json
+
+{
+  "x": "book"
+}
